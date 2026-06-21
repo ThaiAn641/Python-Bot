@@ -5,9 +5,9 @@ import cv2
 import numpy as np
 
 print("====================================")
-print("📌 Name: ThaiAn Hub")
-print("🚀 Loading Title: Loading Script...")
-print("✨ Subtitle: by Thái An")
+print("Name: ThaiAn Hub")
+print("Loading Title: Loading Script...")
+print("Subtitle: by Thái An")
 print("====================================\n")
 
 # Ultra-high density character palette for microscopic pixel transition
@@ -15,7 +15,7 @@ ASCII_CHARS = np.array(list("█▓▒░#$*+> "))
 
 def generate_ascii_font_textures():
     """Pre-renders microscopic ASCII characters (3x5) for hyper-sharp density"""
-    # 🔥 SHRUNK DOWN TO MICRO-SIZE: 3x5 pixels per character for maximum detail
+    # SHRUNK DOWN TO MICRO-SIZE: 3x5 pixels per character for maximum detail
     char_w, char_h = 3, 5
     font = cv2.FONT_HERSHEY_SIMPLEX
     font_scale = 0.12  # Micro font scale to avoid text overlapping
@@ -44,7 +44,7 @@ def create_super_hd_ascii_frame(frame, width=420):
     # 1. Resize frame to the hyper-dense ASCII grid layout
     resized_frame = cv2.resize(frame, (ascii_w, ascii_h), interpolation=cv2.INTER_LINEAR)
     
-    # 2. 🔥 EXTREME NEON COLOR BOOST: Amplify color saturation up to 200% for punchy visuals
+    # 2. EXTREME NEON COLOR BOOST: Amplify color saturation up to 200% for punchy visuals
     hsv = cv2.cvtColor(resized_frame, cv2.COLOR_BGR2HSV).astype("float32")
     hsv[:, :, 1] *= 2.0  
     hsv[:, :, 1] = np.clip(hsv[:, :, 1], 0, 255)
@@ -115,7 +115,7 @@ if __name__ == "__main__":
     video_filename = "porsche.mp4" 
     video_file_path = os.path.join(current_dir, video_filename)
     
-    # 🔥 THE HYPER-RESOLUTION CONFIGURATOR:
+    # THE HYPER-RESOLUTION CONFIGURATOR:
     # 350 = Super Sharp 
     # 420 = Insane Micro-Grid 
     # 500 = Hardware Killer 
