@@ -112,7 +112,7 @@ if __name__ == "__main__":
     current_dir = os.path.dirname(os.path.abspath(__file__))
     
     # Your target video file name
-    video_filename = "posrche.mp4" 
+    video_filename = "porsche.mp4" 
     video_file_path = os.path.join(current_dir, video_filename)
     
     # 🔥 THE HYPER-RESOLUTION CONFIGURATOR:
