@@ -8,7 +8,7 @@ from cvzone.HandTrackingModule import HandDetector
 
 print("====================================")
 print("📌 Name: ThaiAn Hub")
-print("✨ Subtitle: by Thai An")
+print("✨ Subtitle: by Zoink (ThaiAn")
 print("====================================\n")
 
 
