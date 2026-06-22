@@ -8,8 +8,7 @@ pyautogui.PAUSE = 0
 
 print("====================================")
 print("📌 Name: ThaiAn Hub")
-print("🚀 Loading Title: Loading Script...")
-print("✨ Subtitle: by Thái An")
+print("✨ Subtitle: by Zoink (ThaiAn)")
 print("====================================\n")
 
 def srt_time_to_seconds(time_str):
