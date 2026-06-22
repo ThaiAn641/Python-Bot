@@ -8,8 +8,7 @@ from cvzone.HandTrackingModule import HandDetector
 
 print("====================================")
 print("📌 Name: ThaiAn Hub")
-print("🚀 Loading Title: Deploying Ultra Engine V4...")
-print("✨ Subtitle: by Thái An")
+print("✨ Subtitle: by Thai An")
 print("====================================\n")
 
 
@@ -155,8 +154,7 @@ def run_v4_ultra_engine():
     window_name = "ThaiAn Hub - V4 Ultra HD Skeleton Engine"
     cv2.namedWindow(window_name, cv2.WINDOW_NORMAL)
     
-    print(f"▶️ V4 Ultra Engine Deploying! Canvas Matrix: {frame_w}x{frame_h}")
-    print("👉 Show both hands to test the hyper x3 micro-joints. Press 'q' to shut down.\n")
+    print("Press 'q' to shut down.\n")
 
     # Image enhancement sharpening kernel mask (Bộ lọc chống mờ, tăng nét camera)
     sharpen_kernel = np.array([[-1, -1, -1], 
@@ -207,7 +205,6 @@ def run_v4_ultra_engine():
                         # 🔥 OVERLAY YOUR PHOTO: Load directly above the finger tip location safely
                         frame = overlay_transparent_image(frame, middle_finger_custom, mx, my)
 
-            # 📊 HUD TOP STATUS BAR BANNER
             overlay = frame.copy()
             cv2.rectangle(overlay, (0, 0), (frame_w, 55), (15, 15, 25), -1)
             cv2.addWeighted(overlay, 0.7, frame, 0.3, 0, frame)
@@ -229,7 +226,7 @@ def run_v4_ultra_engine():
     finally:
         cap.release()
         cv2.destroyAllWindows()
-        print("\n✅ V4 Engine shut down safely.")
+        print("\nEngine shut down safely.")
 
 if __name__ == "__main__":
     run_v4_ultra_engine()
