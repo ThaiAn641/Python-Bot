@@ -6,8 +6,7 @@ import numpy as np
 
 print("====================================")
 print("Name: ThaiAn Hub")
-print("Loading Title: Loading Script...")
-print("Subtitle: by Thái An")
+print("Subtitle: Zoink (ThaiAn)")
 print("====================================\n")
 
 # Ultra-high density character palette for microscopic pixel transition
