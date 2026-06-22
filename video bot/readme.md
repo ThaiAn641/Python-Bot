@@ -21,7 +21,7 @@ Make sure you have **Python** installed. Open your terminal (Command Prompt / VS
 ### 2. File Setup
 Place your target .mp4 video file into the same folder/directory as your video_ASCII.py script.
 
-Rename your video file to bad_apple.mp4 (or change the filename directly inside the script at the video_filename variable).
+Rename your video file to porsche.mp4 (or change the filename directly inside the script at the video_filename variable).
 
 ### 3. Execution
 To run the project safely and avoid extension bugs (like Code Runner executing temporary selections), run the script directly from your terminal console:
