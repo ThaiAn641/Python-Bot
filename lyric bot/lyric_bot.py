@@ -101,6 +101,6 @@ def run_srt_pyautogui_bot(file_path):
 if __name__ == "__main__":
     # Get the absolute directory of the currently running script to prevent path mismatch errors
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    file_lyric = os.path.join(current_dir, "demo.srt") 
+    file_lyric = os.path.join(current_dir, "yourfile.srt") 
     
     run_srt_pyautogui_bot(file_lyric)
